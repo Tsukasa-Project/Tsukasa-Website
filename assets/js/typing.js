@@ -1,7 +1,7 @@
 const carouselText = [
   {text: "It seems the Page you are looking for has been SUS", color: "white"},
   {text: "Please go back to Homepage", color: "white"},
-  {text: "Dit me mingngu, lowong, chocopie, khoiz", color: "white"}
+  {text: "Dit me thang mingngu, lowong, chocopie, khoiz, hoang, thien, tuanbuoiteo", color: "white"}
 ]
 
 $( document ).ready(async function() {
