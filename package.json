@@ -2,6 +2,7 @@
   "name": "AmongSUS404",
   "version": "1.0.0",
   "description": "dep trai",
+  "homepage": "https://tsukasa-project.github.io/Tsukasa-Website/404/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
