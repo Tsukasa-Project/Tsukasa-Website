@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script>document.addEventListener('contextmenu', event => event.preventDefault());</script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 
-<body class="text-center prevent-select" style="background: var(--bs-black);">
+<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;" class="text-center prevent-select" style="background: var(--bs-black);">
     <div>
         <nav class="navbar navbar-light navbar-expand-md py-3" data-aos="fade-down">
             <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="font-monospace" style="color: rgba(255,255,255,0.9);filter: brightness(200%) contrast(114%) saturate(112%);--bs-primary: #252525;--bs-primary-rgb: 37,37,37;transform: scale(1.49);padding-right: 0px;margin-right: 0px;position: static;display: block;text-shadow: 0px 0px 20px rgba(255,255,255,0.9);">Tsukasa Client</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -47,6 +47,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/protect.js"></script>
 </body>
 
 </html>
